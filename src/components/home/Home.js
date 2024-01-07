@@ -1,9 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./home.css";
 import Navbar from "../navbar/Navbar";
-import ProjectCard from '../cards/Cards'
+import ProjectCard, { Approach }  from '../cards/Cards'
+import Footer from "../footer/Footer"
 
 export default function Home() {
+
+  useEffect(() => {
+    document.title = 'Home | Adarsh Singh'
+  },[])
+
   return (
     <>
     <div className="home-main-container">
@@ -27,8 +33,8 @@ export default function Home() {
                 <div className="project-description1">
                   <p className="hello">
                     I am a UI/UX Designer and Fullstack developer <br />
-                    based in India specialized in web design, <br />
-                    app design and product design.
+                    based in India specialized in Fullstack development, <br />
+                    and UI/UX Designing.
                   </p>
                 </div>
               </div>
@@ -37,7 +43,7 @@ export default function Home() {
                   <span>
                     <span>Wanna discuss new ideas/project?</span>
                     <span className="span">{` `}</span>
-                    <span className="lets-connect">{`Let’s connect `}</span>
+                    <span className="lets-connect" style={{cursor:'pointer'}}>{`Let’s connect `}</span>
                   </span>
                   <span className="lets-connect">
                     <span>{`🤝🏽 `}</span>
@@ -60,6 +66,8 @@ export default function Home() {
         </div>
       </div>
       <ProjectCard/>
+      <Approach/>
+      <Footer/>
     </>
   );
 }

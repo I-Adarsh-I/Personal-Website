@@ -1,0 +1,30 @@
+[
+    {
+        "Title": "pproach",
+        "firstL": "A",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima.",
+        "imgCard" : [
+            {
+                "Img": "Icon",
+                "Title": "Title",
+                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+            },
+            {
+                "Img": "Icon",
+                "Title": "Title2",
+                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+            },
+            {
+                "Img": "Icon",
+                "Title": "Title3",
+                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+            },
+            {
+                "Img": "Icon",
+                "Title": "Title4",
+                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+            }
+        ]
+        
+    }
+]

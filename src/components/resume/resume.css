@@ -1,0 +1,19 @@
+.resume-main-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+}
+.res-btn{
+    margin-top: 20px;
+    background: none;
+    border: 1px solid lightgray;
+    color:black
+}
+.res-btn:hover{
+    background: none;
+    color: var(--color-orange);
+    border: 1px solid lightgray;
+}
