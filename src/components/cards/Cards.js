@@ -141,20 +141,20 @@ function ProjectPage() {
                       <Card.Title>
                         <h1>{data.Title}</h1>
                       </Card.Title>
-                      <Card.Text>
+                      <Card.Text className="leading-relaxed">
                         {data.Description}
                       </Card.Text>
                       <div>
-                        <Link to={`/projects/${data.Title}`}>
-                        <Card.Link>Go somewhere</Card.Link>
-                        <Card.Link>btn-icon</Card.Link>
+                        <Link to={`/projects/${data.Title}`} className="no-underline text-blue">
+                        Go somewhere
+                        btn-icon
                         </Link>
                       </div>
                     </div>
                     <Card.Img
                       variant="top"
-                      src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D"
-                      className="w-50"
+                      src={data.img}
+                      className="w-50 rounded"
                     />
                   </Card>
                 </div>
