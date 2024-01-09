@@ -5,6 +5,8 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import JsonData from "../json data/card.json";
 import ApproachData from "../json data/approachCard.json";
+import ProjectData from "../json data/ProjectData.json";
+import { Link } from "react-router-dom";
 
 function Cards() {
   return (
@@ -15,11 +17,11 @@ function Cards() {
             return (
               <div className="card-main-container" key={index}>
                 <div className="l-con">
-                  <h1>
+                  <h1 className="card-head">
                     <span className="card-title-span">{data.firstL}</span>
                     {data.Title}
                   </h1>
-                  <p>{data.Description}</p>
+                  <p className="main-card-description-l">{data.Description}</p>
                 </div>
                 <div className="r-con">
                   <div className="rt-con">
@@ -38,9 +40,15 @@ function Cards() {
                                   width={"200px"}
                                 />
                                 <Card.Body>
-                                  <Card.Title>{imgData.Title}</Card.Title>
-                                  <Card.Text style={{fontSize:"13px"}}>{imgData.Description}</Card.Text>
-
+                                  <Card.Title className="card-text-head">
+                                    {imgData.Title}
+                                  </Card.Title>
+                                  <Card.Text
+                                    style={{ fontSize: "13px" }}
+                                    className="card-text-des"
+                                  >
+                                    {imgData.Description}
+                                  </Card.Text>
                                 </Card.Body>
                               </Card>
                             </div>
@@ -71,11 +79,11 @@ function Approach() {
             return (
               <div className="card-main-container" key={index}>
                 <div className="l-con">
-                  <h1>
+                  <h1 className="card-head">
                     My <span className="card-title-span">{data.firstL}</span>
                     {data.Title}
                   </h1>
-                  <p>{data.Description}</p>
+                  <p className="main-card-description-l">{data.Description}</p>
                 </div>
                 <div className="r-con">
                   <div className="rt-con">
@@ -85,14 +93,18 @@ function Approach() {
                           return (
                             <div key={index} style={{ width: "fit-content" }}>
                               <Card style={{ width: "200px" }}>
-                              
                                 <Card.Body>
-                                <div className="approach-icon">
-                                  {imgData.Img}
-                                </div>
-                                  <Card.Title>{imgData.Title}</Card.Title>
-                                  <Card.Text style={{fontSize:"13px"}}>
-                                   {imgData.Description}
+                                  <div className="approach-icon">
+                                    {imgData.Img}
+                                  </div>
+                                  <Card.Title className="card-text-head">
+                                    {imgData.Title}
+                                  </Card.Title>
+                                  <Card.Text
+                                    style={{ fontSize: "13px" }}
+                                    className="card-text-des"
+                                  >
+                                    {imgData.Description}
                                   </Card.Text>
                                 </Card.Body>
                               </Card>
@@ -115,5 +127,44 @@ function Approach() {
   );
 }
 
-export { Approach };
+function ProjectPage() {
+  return (
+    <>
+      <div className="proj-details-main-card">
+        {ProjectData &&
+          ProjectData.map((data, index) => {
+            return (
+              <div className="proj-main-card-con" key={index}>
+                <div className="main-card-l-sec">
+                  <Card className="proj-det-card">
+                    <div className="pr-5">
+                      <Card.Title>
+                        <h1>{data.Title}</h1>
+                      </Card.Title>
+                      <Card.Text>
+                        {data.Description}
+                      </Card.Text>
+                      <div>
+                        <Link to={`/projects/${data.Title}`}>
+                        <Card.Link>Go somewhere</Card.Link>
+                        <Card.Link>btn-icon</Card.Link>
+                        </Link>
+                      </div>
+                    </div>
+                    <Card.Img
+                      variant="top"
+                      src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D"
+                      className="w-50"
+                    />
+                  </Card>
+                </div>
+              </div>
+            );
+          })}
+      </div>
+    </>
+  );
+}
+
+export { Approach, ProjectPage };
 export default Cards;

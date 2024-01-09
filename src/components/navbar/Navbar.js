@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,10 +7,37 @@ import { NavLink } from "react-router-dom";
 
 export default function MainNavbar() {
 
+  const [prevScrollpos, setPrevScrollpos] = useState(window.pageYOffset);
+  const [top, setTop] = useState(0);
+  useEffect(() => {
+    // Function to handle scroll events
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      if (prevScrollpos > currentScrollPos) {
+        setTop(0); // Show navbar
+      } else {
+        setTop(-70); // Hide navbar
+      }
+      setPrevScrollpos(currentScrollPos);
+    };
+    // Add scroll event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+    // Clean up by removing the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollpos]);
+
+  const navbarStyle = {
+    top: `${top}px`,
+    transition: 'top 0.3s'
+  };
+
   return (
-    <div className="nav-main-container">
+
+    <div className="nav-main-container" style={navbarStyle}>
       <Navbar expand="lg" className="nav">
-        <Container fluid>
+        <Container>
           <div className="name-con">
             <Navbar.Brand  className="nav-heading">
               <h2 style={{cursor:'pointer', margin: "0", padding: "0", fontSize: "36px" }}>
