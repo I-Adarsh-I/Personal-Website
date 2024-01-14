@@ -7,6 +7,7 @@ import JsonData from "../json data/card.json";
 import ApproachData from "../json data/approachCard.json";
 import ProjectData from "../json data/ProjectData.json";
 import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 function Cards() {
   return (
@@ -45,7 +46,7 @@ function Cards() {
                                   </Card.Title>
                                   <Card.Text
                                     style={{ fontSize: "13px" }}
-                                    className="card-text-des"
+                                    className="card-text-des tag"
                                   >
                                     {imgData.Description}
                                   </Card.Text>
@@ -136,27 +137,52 @@ function ProjectPage() {
             return (
               <div className="proj-main-card-con" key={index}>
                 <div className="main-card-l-sec">
-                  <Card className="proj-det-card">
-                    <div className="pr-5">
-                      <Card.Title>
-                        <h1>{data.Title}</h1>
-                      </Card.Title>
-                      <Card.Text className="leading-relaxed">
-                        {data.Description}
-                      </Card.Text>
+                  <Fade cascade damping={0.3}>
+                    <Card className="proj-det-card">
+                      {data.imgL && (
+                        <Card.Img
+                          variant="top"
+                          src={data.imgL}
+                          className="w-50 rounded l-img"
+                        />
+                      )}
                       <div>
-                        <Link to={`/projects/${data.Title}`} className="no-underline text-blue">
-                        Go somewhere
-                        btn-icon
-                        </Link>
+                        <Card.Title>
+                          {data.tag && (
+                            <p className="tag" style={{ fontSize: "14px" }}>
+                              {data.tag}
+                            </p>
+                          )}
+                          <h1>{data.Title}</h1>
+                          <h4>{data.sub}</h4>
+                        </Card.Title>
+                        <Card.Text className="leading-relaxed">
+                          {data.Description}
+                        </Card.Text>
+                        <div>
+                          <Link
+                            to={`/projects/${data.Title}`}
+                            className="decoration-orange-400 arrow-btn"
+                          >
+                            <Button
+                              variant="outline-secondary"
+                              className="card-btn redirection-btn"
+                            >
+                              View More
+                            </Button>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
-                    <Card.Img
-                      variant="top"
-                      src={data.img}
-                      className="w-50 rounded"
-                    />
-                  </Card>
+
+                      {data.img && (
+                        <Card.Img
+                          variant="top"
+                          src={data.img}
+                          className="w-50 rounded r-img"
+                        />
+                      )}
+                    </Card>
+                  </Fade>
                 </div>
               </div>
             );

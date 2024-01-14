@@ -5,24 +5,24 @@
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima.",
         "imgCard" : [
             {
-                "Img": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Title": "Title",
-                "Description": "Project Type"
+                "Img": "/assets/Image=Proj-01.png",
+                "Title": "SquadGPT",
+                "Description": "Website design"
             },
             {
-                "Img": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Title": "Title2",
-                "Description": "Project Type"
+                "Img": "/assets/Image=Proj-02.png",
+                "Title": "CubicleQuest",
+                "Description": "Application design"
             },
             {
-                "Img": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Title": "Title3",
-                "Description": "Project Type"
+                "Img": "/assets/Image=Proj-03.png",
+                "Title": "Nike landing page",
+                "Description": "Redesign"
             },
             {
-                "Img": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Title": "Title4",
-                "Description": "Project Type"
+                "Img": "/assets/Image=Proj-03.png",
+                "Title": "Nike landing page",
+                "Description": "Redesign"
             }
         ]
         

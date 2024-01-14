@@ -21,6 +21,9 @@
     --color-black: #000;
     --color-royalblue: #0055d5;
     --color-orange: #ff7a2f;
+    --color-light-gray-outline: #e6e6e6;
+    --color-icon-gray: #a3a3a3;
+    --color-git: #6e5494;
 }
 /* body{
     background-color: rgba(255,255,255,0);

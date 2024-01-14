@@ -67,42 +67,34 @@
     justify-content: flex-start;
     gap: 16px;
   }
-  .email-icon1,
-  .git-icon1,
-  .linkedin-icon1,
-  .x-icon1 {
-    position: absolute;
-    height: 100%;
-    width: 16.9%;
-    top: 0;
-    right: 83.1%;
-    bottom: 0;
-    left: 0;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-  }
-  .email-icon1,
-  .git-icon1,
-  .x-icon1 {
-    right: 55.35%;
-    left: 27.75%;
-  }
-  .email-icon1,
-  .git-icon1 {
-    right: 27.75%;
-    left: 55.35%;
-  }
-  .email-icon1 {
-    right: 0;
-    left: 83.1%;
-  }
+  
   .icons {
-    position: relative;
-    width: 195.3px;
-    height: 25px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
   }
+  .icon{
+    width: 35px;
+    height: 35px;
+    color: var(--color-icon-gray);
+    cursor: pointer;
+  }
+  .in-icon:hover{
+    color: var(--color-royalblue);
+  }
+  .twitter-icon:hover{
+    color: var(--color-black);
+  }
+  .git-icon:hover{
+    color: var(--color-git);
+  }
+  .mail-icon:hover{
+    color: var(--color-royalblue);
+  }
+
   .hero-section-parent {   
     width: 100%;
     height: calc(100vh - 70px); 
