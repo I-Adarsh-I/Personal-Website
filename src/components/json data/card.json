@@ -5,22 +5,22 @@
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima.",
         "imgCard" : [
             {
-                "Img": "/assets/Image=Proj-01.png",
+                "Img": "/assets/proj-01.png",
                 "Title": "SquadGPT",
                 "Description": "Website design"
             },
             {
-                "Img": "/assets/Image=Proj-02.png",
+                "Img": "/assets/proj-02.png",
                 "Title": "CubicleQuest",
                 "Description": "Application design"
             },
             {
-                "Img": "/assets/Image=Proj-03.png",
+                "Img": "/assets/proj-03.png",
                 "Title": "Nike landing page",
                 "Description": "Redesign"
             },
             {
-                "Img": "/assets/Image=Proj-03.png",
+                "Img": "/assets/proj-03.png",
                 "Title": "Nike landing page",
                 "Description": "Redesign"
             }

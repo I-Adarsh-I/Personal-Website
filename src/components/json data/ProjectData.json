@@ -6,7 +6,7 @@
         "subtitle" : "A short and simple Description",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam saepe cumque id aperiam tempora porro enim maiores facilis dolorum.",
         "link": "View project",
-        "img": "/assets/Image=Proj-01.png",
+        "img": "/assets/proj-01.png",
         "overviewText" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nihil veniam fugit laboriosam odio quos id. Facere mollitia perferendis ducimus iste quam obcaecati enim ex eligendi doloribus veritatis minima facilis, asperiores dolorem nisi, aliquid cumque sequi amet assumenda, voluptas excepturi! Non ut quisquam eligendi aliquid expedita sint labore optio quia, provident tempore id, vel culpa, cum minus ad? Delectus, libero."
     },
     {
@@ -15,7 +15,7 @@
         "subtitle" : "A short and simple Description",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam saepe cumque id aperiam tempora porro enim maiores facilis dolorum.",
         "link": "View project",
-        "imgL": "/assets/Image=Proj-02.png",
+        "imgL": "/assets/proj-02.png",
         "overviewText" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nihil veniam fugit laboriosam odio quos id. Facere mollitia perferendis ducimus iste quam obcaecati enim ex eligendi doloribus veritatis minima facilis, asperiores dolorem nisi, aliquid cumque sequi amet assumenda, voluptas excepturi! Non ut quisquam eligendi aliquid expedita sint labore optio quia, provident tempore id, vel culpa, cum minus ad? Delectus, libero."
     },
     {
@@ -24,7 +24,7 @@
         "subtitle" : "A short and simple Description",
         "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam saepe cumque id aperiam tempora porro enim maiores facilis dolorum.",
         "link": "View project",
-        "img": "/assets/Image=Proj-03.png",
+        "img": "/assets/proj-03.png",
         "overviewText" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nihil veniam fugit laboriosam odio quos id. Facere mollitia perferendis ducimus iste quam obcaecati enim ex eligendi doloribus veritatis minima facilis, asperiores dolorem nisi, aliquid cumque sequi amet assumenda, voluptas excepturi! Non ut quisquam eligendi aliquid expedita sint labore optio quia, provident tempore id, vel culpa, cum minus ad? Delectus, libero."
     }
 ]
