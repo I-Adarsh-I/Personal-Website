@@ -6,7 +6,7 @@ import "./navbar.css";
 import { NavLink } from "react-router-dom";
 
 export default function MainNavbar() {
-  const [prevScrollpos, setPrevScrollpos] = useState(window.pageYOffset);
+  const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
   const [top, setTop] = useState(0);
   useEffect(() => {
     // Function to handle scroll events
