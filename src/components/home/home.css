@@ -138,10 +138,11 @@
 @media screen and (max-width: 480px) {
   .desktop-1{
     padding: 0 20px;
-    height: 90vh;
+    height: calc(100vh - 70px);
   }
   .hero-section-parent{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
