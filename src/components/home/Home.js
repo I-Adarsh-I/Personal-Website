@@ -4,7 +4,12 @@ import Navbar from "../navbar/Navbar";
 import ProjectCard, { Approach } from "../cards/Cards";
 import Footer from "../footer/Footer";
 import { Fade } from "react-awesome-reveal";
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillMail } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillMail,
+} from "react-icons/ai";
 
 export default function Home() {
   useEffect(() => {

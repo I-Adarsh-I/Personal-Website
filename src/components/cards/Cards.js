@@ -96,7 +96,7 @@ function Approach() {
                         data.imgCard.map((imgData, index) => {
                           return (
                             <div key={index} style={{ width: "fit-content" }}>
-                              <Card>
+                              <Card className="img-card">
                                 <Card.Body>
                                   <div className="approach-icon">
                                     {imgData.Img}
