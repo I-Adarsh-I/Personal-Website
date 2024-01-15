@@ -12,6 +12,8 @@ import { Fade } from "react-awesome-reveal";
 function Cards() {
   return (
     <>
+    <Fade>
+
       <div className="parent" id="project_card">
         {JsonData &&
           JsonData.map((data, index) => {
@@ -31,27 +33,24 @@ function Cards() {
                         data.imgCard.map((imgData, index) => {
                           return (
                             <div key={index} style={{ width: "fit-content" }}>
-                              <Card
-                                style={{ width: "200px" }}
-                                className="img-card"
-                              >
-                                <Card.Img
-                                  variant="top"
-                                  src={imgData.Img}
-                                  width={"200px"}
-                                />
-                                <Card.Body>
-                                  <Card.Title className="card-text-head">
-                                    {imgData.Title}
-                                  </Card.Title>
-                                  <Card.Text
-                                    style={{ fontSize: "13px" }}
-                                    className="card-text-des tag"
-                                  >
-                                    {imgData.Description}
-                                  </Card.Text>
-                                </Card.Body>
-                              </Card>
+                                <Card className="img-card">
+                                  <Card.Img
+                                    variant="top"
+                                    src={imgData.Img}
+                                    className="card-img"
+                                  />
+                                  <Card.Body>
+                                    <Card.Title className="card-text-head">
+                                      {imgData.Title}
+                                    </Card.Title>
+                                    <Card.Text
+                                      style={{ fontSize: "13px" }}
+                                      className="card-text-des tag"
+                                    >
+                                      {imgData.Description}
+                                    </Card.Text>
+                                  </Card.Body>
+                                </Card>
                             </div>
                           );
                         })}
@@ -64,9 +63,13 @@ function Cards() {
                   </div>
                 </div>
               </div>
+
             );
           })}
+
       </div>
+    </Fade>
+
     </>
   );
 }
@@ -74,7 +77,7 @@ function Cards() {
 function Approach() {
   return (
     <>
-      <div className="parent">
+      <div className="parent approach-card">
         {ApproachData &&
           ApproachData.map((data, index) => {
             return (
@@ -93,7 +96,7 @@ function Approach() {
                         data.imgCard.map((imgData, index) => {
                           return (
                             <div key={index} style={{ width: "fit-content" }}>
-                              <Card style={{ width: "200px" }}>
+                              <Card>
                                 <Card.Body>
                                   <div className="approach-icon">
                                     {imgData.Img}
@@ -113,11 +116,6 @@ function Approach() {
                           );
                         })}
                     </Row>
-                  </div>
-                  <div className="rb-con">
-                    <Button variant="outline-secondary" className="card-btn">
-                      View More
-                    </Button>
                   </div>
                 </div>
               </div>

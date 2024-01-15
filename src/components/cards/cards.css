@@ -159,3 +159,44 @@
   .r-img{
     padding: 0 0 0 20px;
   }
+  .img-card{
+    width: 200px;
+  }
+
+  @media screen and (max-width:480px) {
+    .card-main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .r-con{
+        padding: 0;
+        width: 100%;
+    }
+    .l-con{
+        width: 100%;
+    }
+    .row {
+        gap: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: unset;
+        margin-right: unset;
+        margin-left: unset;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .img-card{
+        width: 100%;
+    }
+    .parent{
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .approach-card{
+        margin-bottom: 50px;
+    }
+  }

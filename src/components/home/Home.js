@@ -31,7 +31,7 @@ export default function Home() {
               <div className="text-box-parent">
                 <div className="text-box1">
                   <div className="project-description1">
-                    <p className="hello">
+                    <p className="hello hello-text">
                       I am a UI/UX Designer and Fullstack developer <br />
                       based in India specialized in Fullstack development,{" "}
                       <br />
