@@ -15,15 +15,19 @@
     /* font sizes */
     --font-size-base: 16px;
     --font-size-5xl: 24px;
+    --font-size-mob-small: 14px;
+    --font-main-head-mob: 31px;
+    --font-sub-size-mob: 17px;
   
     /* Colors */
-    --color-gray: #262626;
+    --color-gray: #2c2c2c;
     --color-black: #000;
     --color-royalblue: #0055d5;
     --color-orange: #ff7a2f;
     --color-light-gray-outline: #e6e6e6;
     --color-icon-gray: #a3a3a3;
     --color-git: #6e5494;
+    --color-sub-gray: #8e8e8e;
 }
 /* body{
     background-color: rgba(255,255,255,0);

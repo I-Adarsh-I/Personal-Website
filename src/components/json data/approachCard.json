@@ -6,22 +6,22 @@
         "imgCard" : [
             {
                 "Img": "Icon",
-                "Title": "Title",
+                "Title": "Research",
                 "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
             },
             {
                 "Img": "Icon",
-                "Title": "Title2",
+                "Title": "Design",
                 "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
             },
             {
                 "Img": "Icon",
-                "Title": "Title3",
+                "Title": "Front-End",
                 "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
             },
             {
                 "Img": "Icon",
-                "Title": "Title4",
+                "Title": "Back-End",
                 "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
             }
         ]

@@ -12,33 +12,36 @@ import { Fade } from "react-awesome-reveal";
 function Cards() {
   return (
     <>
-    <Fade>
-
-      <div className="parent" id="project_card">
-        {JsonData &&
-          JsonData.map((data, index) => {
-            return (
-              <div className="card-main-container" key={index}>
-                <div className="l-con">
-                  <h1 className="card-head">
-                    <span className="card-title-span">{data.firstL}</span>
-                    {data.Title}
-                  </h1>
-                  <p className="main-card-description-l">{data.Description}</p>
-                </div>
-                <div className="r-con">
-                  <div className="rt-con">
-                    <Row xs={1} md={2} className="g-1">
-                      {data.imgCard &&
-                        data.imgCard.map((imgData, index) => {
-                          return (
-                            <div key={index} style={{ width: "fit-content" }}>
+      <Fade>
+        <div className="parent" id="project_card">
+          {JsonData &&
+            JsonData.map((data, index) => {
+              return (
+                <div className="card-main-container" key={index}>
+                  <div className="l-con">
+                    <h1 className="card-head">
+                      <span className="card-title-span">{data.firstL}</span>
+                      {data.Title}
+                    </h1>
+                    <p className="main-card-description-l">
+                      {data.Description}
+                    </p>
+                  </div>
+                  <div className="r-con">
+                    <div className="rt-con">
+                      <Row xs={1} md={2} className="g-1">
+                        {data.imgCard &&
+                          data.imgCard.map((imgData, index) => {
+                            return (
+                              <div key={index} style={{ width: "fit-content" }}>
                                 <Card className="img-card">
-                                  <Card.Img
-                                    variant="top"
-                                    src={imgData.Img}
-                                    className="card-img"
-                                  />
+                                  <Link to={`/projects/${imgData.Title}`}>
+                                    <Card.Img
+                                      variant="top"
+                                      src={imgData.Img}
+                                      className="card-img"
+                                    />
+                                  </Link>
                                   <Card.Body>
                                     <Card.Title className="card-text-head">
                                       {imgData.Title}
@@ -51,25 +54,26 @@ function Cards() {
                                     </Card.Text>
                                   </Card.Body>
                                 </Card>
-                            </div>
-                          );
-                        })}
-                    </Row>
-                  </div>
-                  <div className="rb-con">
-                    <Button variant="outline-secondary" className="card-btn">
-                      View More
-                    </Button>
+                              </div>
+                            );
+                          })}
+                      </Row>
+                    </div>
+                    <div className="rb-con">
+                      <Link
+                        to="/projects"
+                        className=" btn btn-outline-secondary card-btn"
+                      >
+                        {" "}
+                        View More{" "}
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-            );
-          })}
-
-      </div>
-    </Fade>
-
+              );
+            })}
+        </div>
+      </Fade>
     </>
   );
 }
@@ -136,25 +140,34 @@ function ProjectPage() {
               <div className="proj-main-card-con" key={index}>
                 <div className="main-card-l-sec">
                   <Fade cascade damping={0.3}>
-                    <Card className="proj-det-card">
+                    <Card
+                      className={
+                        data.imgL ? "flex-col proj-det-card" : "proj-det-card"
+                      }
+                    >
+                      {/* proj-det-card */}
                       {data.imgL && (
-                        <Card.Img
-                          variant="top"
-                          src={data.imgL}
-                          className="w-50 rounded l-img"
-                        />
+                        <Link to={`/projects/${data.Title}`}>
+                          {" "}
+                          <Card.Img
+                            variant="top"
+                            src={data.imgL}
+                            className="rounded l-img"
+                          />
+                        </Link>
                       )}
                       <div>
-                        <Card.Title>
+                        <Card.Title className="per-proj-card-title">
                           {data.tag && (
                             <p className="tag" style={{ fontSize: "14px" }}>
                               {data.tag}
                             </p>
                           )}
-                          <h1>{data.Title}</h1>
-                          <h4>{data.sub}</h4>
+                          <h1 className="proj-main-title">{data.Title}</h1>
+                          <h4 className="sub">{data.sub}</h4>
                         </Card.Title>
-                        <Card.Text className="leading-relaxed">
+                        <div className="sep-line"></div>
+                        <Card.Text className="leading-relaxed per-proj-des">
                           {data.Description}
                         </Card.Text>
                         <div>
@@ -173,11 +186,13 @@ function ProjectPage() {
                       </div>
 
                       {data.img && (
-                        <Card.Img
-                          variant="top"
-                          src={data.img}
-                          className="w-50 rounded r-img"
-                        />
+                        <Link to={`/projects/${data.Title}`}>
+                          <Card.Img
+                            variant="top"
+                            src={data.img}
+                            className="rounded r-img"
+                          />
+                        </Link>
                       )}
                     </Card>
                   </Fade>

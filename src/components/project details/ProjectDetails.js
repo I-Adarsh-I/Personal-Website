@@ -22,23 +22,24 @@ function ProjectDetails() {
           <Fade>
             <Card className="proj-detail-main-card-con">
               <Card.Body className="proj-det-heads">
-                <h1>{project.Title}</h1>
-                <h4>{project.subtitle}</h4>
+                <h1 className="proj-main-title">{project.Title}</h1>
+                <h4 className="sub">{project.subtitle}</h4>
               </Card.Body>
               <Card.Img
                 variant="bottom"
                 src={project.img}
-                style={{ width: "70%" }}
-                className="rounded"
+                
+                className="rounded proj-details-proj-overview-sec-img"
               />
             </Card>
             <div className="overview-sec">
               <Card className="overview-card border-0 p-4 bg-transparent">
                 <Card.Body>
-                  <h1>
+                  <h1 className="proj-main-title">
                     <span className="FN">O</span>verview
                   </h1>
-                  <Card.Text className="leading-relaxed">
+                  <div className="overview-sep-line"></div>
+                  <Card.Text className="leading-relaxed main-card-description-l">
                     {project.overviewText}
                   </Card.Text>
                 </Card.Body>
