@@ -17,3 +17,12 @@
     color: var(--color-orange);
     border: 1px solid lightgray;
 }
+.resume-img{
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {   
+.resume-img{
+    width: 100%;
+}
+}

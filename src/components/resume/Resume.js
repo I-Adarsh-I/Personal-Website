@@ -15,7 +15,7 @@ function Resume() {
       <Navbar />
       <Fade>
         <div className="resume-main-con">
-          <img src={ResumePdf} alt="" width={"50%"} />
+          <img src={ResumePdf} className="resume-img" alt="Adarsh_Singh_Resume - Click below to download" />
           <a
             className="btn btn-secondary outline-secondary card-btn res-btn"
             href={ResumePDF}
