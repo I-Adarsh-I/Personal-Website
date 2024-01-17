@@ -147,7 +147,7 @@ function ProjectPage() {
                     >
                       {/* proj-det-card */}
                       {data.imgL && (
-                        <Link to={`/projects/${data.Title}`}>
+                        <Link to={`/projects/${data.Title}`} className="proj-link">
                           {" "}
                           <Card.Img
                             variant="top"
@@ -186,7 +186,7 @@ function ProjectPage() {
                       </div>
 
                       {data.img && (
-                        <Link to={`/projects/${data.Title}`}>
+                        <Link to={`/projects/${data.Title}`} className="proj-link">
                           <Card.Img
                             variant="top"
                             src={data.img}
