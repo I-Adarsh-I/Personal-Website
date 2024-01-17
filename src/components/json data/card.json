@@ -2,7 +2,8 @@
     {
         "Title": "rojects",
         "firstL": "P",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima.",
+        "Description": "Explore my projects - simple endeavors, each telling a unique story of turning ideas into Designs.",
+        "Description2": "Click on view more to see my hands-on approach and the stories behind each project I've thought and designed.",
         "imgCard" : [
             {
                 "Img": "/assets/proj-01.png",
@@ -13,11 +14,6 @@
                 "Img": "/assets/proj-02.png",
                 "Title": "CubicleQuest",
                 "Description": "Application design"
-            },
-            {
-                "Img": "/assets/proj-03.png",
-                "Title": "Nike landing page",
-                "Description": "Redesign"
             },
             {
                 "Img": "/assets/proj-03.png",

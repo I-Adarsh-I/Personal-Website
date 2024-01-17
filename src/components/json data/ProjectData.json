@@ -3,28 +3,28 @@
         "tag": "Recent",
         "Title": "SquadGPT",
         "sub" : "AI based group chating platform",
-        "subtitle" : "A short and simple Description",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam saepe cumque id aperiam tempora porro enim maiores facilis dolorum.",
+        "subtitle" : "Elevate Group Chats with AI.",
+        "Description": "SquadGPT is an envisioned digital platform designed to enhance online communication and collaboration. This website facilitates connections between individuals from different organizations, providing a streamlined environment for group chats.",
         "link": "View project",
         "img": "/assets/proj-01.png",
-        "overviewText" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nihil veniam fugit laboriosam odio quos id. Facere mollitia perferendis ducimus iste quam obcaecati enim ex eligendi doloribus veritatis minima facilis, asperiores dolorem nisi, aliquid cumque sequi amet assumenda, voluptas excepturi! Non ut quisquam eligendi aliquid expedita sint labore optio quia, provident tempore id, vel culpa, cum minus ad? Delectus, libero."
+        "overviewText" : "a thoughtfully designed online collaboration platform where diverse individuals seamlessly connect. Elevate your group chats by integrating AI assistance—simply type '/gpt' for insightful support. Effortlessly engage in multiple groups, streamlining your interactions and maximizing efficiency. SquadGPT is more than a platform; it's a doorway to innovative and efficient online collaboration, intricately designed for professionals seeking a dynamic space. "
     },
     {
         "Title": "CubicleQuest",
         "sub" : "Mobile application design",
-        "subtitle" : "A short and simple Description",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam saepe cumque id aperiam tempora porro enim maiores facilis dolorum.",
+        "subtitle" : "Simplifying Your Job Search.",
+        "Description": "CubicleQuest is a job-finding application designed to assist both entry-level individuals and seasoned professionals.",
         "link": "View project",
         "imgL": "/assets/proj-02.png",
-        "overviewText" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nihil veniam fugit laboriosam odio quos id. Facere mollitia perferendis ducimus iste quam obcaecati enim ex eligendi doloribus veritatis minima facilis, asperiores dolorem nisi, aliquid cumque sequi amet assumenda, voluptas excepturi! Non ut quisquam eligendi aliquid expedita sint labore optio quia, provident tempore id, vel culpa, cum minus ad? Delectus, libero."
+        "overviewText" : "CubicleQuest is a job-finding application catering to both freshers and experienced professionals. Focused on simplicity, the platform aims to ease the job search process without the need for extensive training. Stay tuned for a user-friendly experience tailored to diverse career needs, making job hunting straightforward for all."
     },
     {
         "Title": "Nike landing page",
-        "sub" : "Redesign",
-        "subtitle" : "A short and simple Description",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam saepe cumque id aperiam tempora porro enim maiores facilis dolorum.",
+        "sub" : "Redefining Your Experience",
+        "subtitle" : "Redefining Your Experience",
+        "Description": "Streamlined interface, personalized content, and dynamic visuals for a seamless and engaging entry into the Nike world.",
         "link": "View project",
         "img": "/assets/proj-03.png",
-        "overviewText" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nihil veniam fugit laboriosam odio quos id. Facere mollitia perferendis ducimus iste quam obcaecati enim ex eligendi doloribus veritatis minima facilis, asperiores dolorem nisi, aliquid cumque sequi amet assumenda, voluptas excepturi! Non ut quisquam eligendi aliquid expedita sint labore optio quia, provident tempore id, vel culpa, cum minus ad? Delectus, libero."
+        "overviewText" : "Explore the redesigned Nike landing page. Streamlined navigation, personalized content, and dynamic visuals create an immersive entry into the Nike world."
     }
 ]

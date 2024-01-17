@@ -25,12 +25,20 @@ function ProjectDetails() {
                 <h1 className="proj-main-title">{project.Title}</h1>
                 <h4 className="sub">{project.subtitle}</h4>
               </Card.Body>
-              <Card.Img
-                variant="bottom"
-                src={project.img}
-                
-                className="rounded proj-details-proj-overview-sec-img"
-              />
+                <div className="proj-sep-line"></div>
+              {project.img ? (
+                <Card.Img
+                  variant="bottom"
+                  src={project.img}
+                  className="rounded proj-details-proj-overview-sec-img"
+                />
+              ) : (
+                <Card.Img
+                  variant="bottom"
+                  src={project.imgL}
+                  className="rounded proj-details-proj-overview-sec-img"
+                />
+              )}
             </Card>
             <div className="overview-sec">
               <Card className="overview-card border-0 p-4 bg-transparent">

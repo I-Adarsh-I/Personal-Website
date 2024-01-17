@@ -108,6 +108,9 @@
 .tag, .per-proj-des{
   font-family: var(--font-source-serif-4);
 }
+.content-container{
+  width: 100%;
+}
 .arrow-btn {
   display: flex;
   align-items: center;
@@ -176,12 +179,22 @@
 .r-img {
   padding: 0 0 0 20px;
   width: 100%;
+  pointer-events: none;
 }
 .proj-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 90%;
+}
+.proj-sep-line{
+  margin:  -12px 0 24px 0;
+  width: 15%;
+  border: 2px solid var(--color-orange);
+  border-radius: 4px;
+}
+.proj-details-proj-overview-sec-img{
+  pointer-events: none;
 }
 
 @media screen and (max-width: 480px) {

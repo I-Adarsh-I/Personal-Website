@@ -23,8 +23,9 @@ function Cards() {
                       <span className="card-title-span">{data.firstL}</span>
                       {data.Title}
                     </h1>
-                    <p className="main-card-description-l">
-                      {data.Description}
+                    <p className="main-card-description-l leading-8">
+                      {data.Description} <br />
+                      {data.Description2}
                     </p>
                   </div>
                   <div className="r-con">
@@ -91,7 +92,7 @@ function Approach() {
                     My <span className="card-title-span">{data.firstL}</span>
                     {data.Title}
                   </h1>
-                  <p className="main-card-description-l">{data.Description}</p>
+                  <p className="main-card-description-l leading-8">{data.Description}</p>
                 </div>
                 <div className="r-con">
                   <div className="rt-con">
@@ -156,7 +157,7 @@ function ProjectPage() {
                           />
                         </Link>
                       )}
-                      <div>
+                      <div className="content-container">
                         <Card.Title className="per-proj-card-title">
                           {data.tag && (
                             <p className="tag" style={{ fontSize: "14px" }}>
