@@ -196,6 +196,11 @@
 .proj-details-proj-overview-sec-img{
   pointer-events: none;
 }
+.approach-icon{
+  width: 40px;
+  padding: 0 0 5px 0;
+}
+
 
 @media screen and (max-width: 480px) {
   .card-main-container {

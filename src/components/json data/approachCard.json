@@ -5,24 +5,24 @@
         "Description": "I start with research for a strong base, design for looks, make it work smoothly on the front-end, and ensure everything runs seamlessly on the back-end. Simple, effective, and purposeful.",
         "imgCard" : [
             {
-                "Img": "Icon",
+                "Img": "/assets/iconset/research-and-development.png",
                 "Title": "Research",
-                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+                "Description": "Before the pixels and code, I dive into understanding the essence. Thorough research lays the foundation, ensuring solutions are not just visually appealing but also deeply rooted in purpose."
             },
             {
-                "Img": "Icon",
+                "Img": "/assets/iconset/vector.png",
                 "Title": "Design",
-                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+                "Description": "Crafting visually compelling experiences is my forte. From wireframes to the final interface, I strive for designs that are not just aesthetically pleasing but also intuitively functional."
             },
             {
-                "Img": "Icon",
+                "Img": "/assets/iconset/front-end-programming.png",
                 "Title": "Front-End",
-                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+                "Description": "Bringing designs to life with clean, responsive code is where I thrive. Attention to detail ensures every user interaction is seamless and delightful, creating engaging and user-friendly digital experiences."
             },
             {
-                "Img": "Icon",
+                "Img": "/assets/iconset/backend.png",
                 "Title": "Back-End",
-                "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus perspiciatis nemo, commodi eligendi aut voluptatibus aliquam cumque sapiente. Minima."
+                "Description": "Behind the scenes, I ensure robust functionality. From databases to server-side logic, my approach to backend development is geared towards creating a reliable and efficient system."
             }
         ]
         

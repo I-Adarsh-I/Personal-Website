@@ -104,7 +104,7 @@ function Approach() {
                               <Card className="img-card">
                                 <Card.Body>
                                   <div className="approach-icon">
-                                    {imgData.Img}
+                                    <img src={imgData.Img} alt="" />
                                   </div>
                                   <Card.Title className="card-text-head">
                                     {imgData.Title}

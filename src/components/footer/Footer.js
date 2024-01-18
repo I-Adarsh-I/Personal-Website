@@ -6,6 +6,7 @@ import {
   AiFillTwitterCircle,
   AiFillMail,
 } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,10 +20,21 @@ const Footer = () => {
         </h1>
       </div>
       <div className="icons">
-        <AiFillLinkedin className="icon in-icon" />
-        <AiFillTwitterCircle className="icon twitter-icon" />
-        <AiFillGithub className="icon git-icon" />
-        <AiFillMail className="icon mail-icon" />
+        <Link
+          to="https://www.linkedin.com/in/adarsh-singh-17092b244/"
+          target="_blank"
+        >
+          <AiFillLinkedin className="icon in-icon" />
+        </Link>
+        <Link to="https://twitter.com/darsh_singh0_0" target="_blank">
+          <AiFillTwitterCircle className="icon twitter-icon" />
+        </Link>
+        <Link to="https://github.com/I-Adarsh-I" target="_blank">
+          <AiFillGithub className="icon git-icon" />
+        </Link>
+        <a href="mailto:adarshsi.info@gmail.com" target="_target">
+          <AiFillMail className="icon mail-icon" />
+        </a>
       </div>
     </footer>
   );
