@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./home.css";
 import Navbar from "../navbar/Navbar";
 import ProjectCard, { Approach } from "../cards/Cards";
@@ -16,6 +17,8 @@ export default function Home() {
   useEffect(() => {
     document.title = "Home | Adarsh Singh";
   }, []);
+
+  const navigate = useNavigate();
 
   return (
     <>
@@ -52,11 +55,12 @@ export default function Home() {
                       <span className="span">{` `}</span>
                       <span
                         className="lets-connect"
-                        style={{ cursor: "pointer" }}
-                      >{`Let’s connect `}</span>
+                        // style={{ cursor: "pointer" }}
+                        
+                      >{`Let’s connect  `}</span>
                     </span>
                     <span className="lets-connect">
-                      <span>{`🤝🏽 `}</span>
+                      <span>{`👇🏼 `}</span>
                     </span>
                   </div>
                 </div>

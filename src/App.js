@@ -7,6 +7,7 @@ import Resume from "./components/resume/Resume";
 import { Routes, Route } from "react-router-dom";
 import ProjectDetails from "./components/project details/ProjectDetails";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
+// import Connect from "./pages/Connect";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/projects" element={<Project/>} />
         <Route path="/projects/:title" element= {<ProjectDetails />} />
         <Route path="/resume" element = {<Resume />} />
+        {/* <Route path="/connect" element = {<Connect />} /> */}
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </div>

@@ -1,0 +1,35 @@
+.r-connect-con{
+    width: 50%;
+    padding: 0 0 0 20px;
+}
+.parent-connect{
+    margin: 0;
+    height: 100vh;
+}
+.connect-parent-container{
+   width: 60%;
+}
+.main-container-connect{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+}
+.head{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.btn-grp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: unset;
+    border-color: lightgray;
+    outline: 0;
+    box-shadow: unset;
+}
