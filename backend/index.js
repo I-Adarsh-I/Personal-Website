@@ -14,7 +14,7 @@ mongoose.connect(URL)
 
 app.post('/connect', async(req, res) => {
     try {
-        const personReq = await ConnModel.create(req.body);
+        await ConnModel.create(req.body);
 
     } catch (err) {
         console.error("Error sending data to MDB: ", err);
