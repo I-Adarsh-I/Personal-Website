@@ -13,12 +13,15 @@
 
 /* Tabs design */
 .css-1aquho2-MuiTabs-indicator {
+  background-color:unset;
+  height: unset;
   position: absolute;
   height: 100% !important;
   background-color: rgba(248, 250, 252, 1) !important;
   border-radius: 100px;
 }
 .css-gcdjp1-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: unset;
   color: var(--color-orange) !important;
   border-radius: 100px;
   z-index: 1;
