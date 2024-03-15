@@ -38,6 +38,7 @@
 }
 .css-17g0kc1.Mui-selected {
   color: var(--color-orange) !important;
+  border-radius: 100px !important;
 }
 .fontFam{
   font-family: var(--font-montserrat) !important;
