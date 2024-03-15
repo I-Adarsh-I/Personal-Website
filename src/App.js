@@ -2,16 +2,18 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Home from "./components/home/Home";
-import Project from "./components/projects/Project";
-import Resume from "./components/resume/Resume";
+import Project from "./pages/projects/Project";
+import Resume from "./pages/resume/Resume";
 import { Routes, Route } from "react-router-dom";
 import ProjectDetails from "./components/project details/ProjectDetails";
-import PageNotFound from "./components/pageNotFound/PageNotFound";
+import PageNotFound from "./pages/pageNotFound/PageNotFound";
+import MainNavbar from "./components/navbar/Navbar";
 // import Connect from "./pages/Connect";
 
 function App() {
   return (
     <div className="App">
+      <MainNavbar />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/projects" element={<Project/>} />

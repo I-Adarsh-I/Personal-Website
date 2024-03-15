@@ -1,0 +1,34 @@
+.project-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 200px;
+}
+
+/* Dev proj design */
+.main-head-dev-proj{
+  font-family: var(--font-montserrat);
+}
+
+/* Tabs design */
+.css-1aquho2-MuiTabs-indicator {
+  position: absolute;
+  height: 100% !important;
+  background-color: rgba(248, 250, 252, 1) !important;
+  border-radius: 100px;
+}
+.css-gcdjp1-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--color-orange) !important;
+  border-radius: 100px;
+  z-index: 1;
+}
+.fontFam{
+  font-family: var(--font-montserrat) !important;
+}
+
+@media screen and (max-width: 480px) {
+  .project-main-container {
+    padding: 0 50px;
+  }
+}

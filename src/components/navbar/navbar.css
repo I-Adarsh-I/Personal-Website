@@ -46,6 +46,7 @@
   transition: var(--bs-navbar-toggler-transition);
 } 
 
+
 @media screen and (max-width: 480px) {
   .navbar-nav-scroll {
     overflow-y: unset;

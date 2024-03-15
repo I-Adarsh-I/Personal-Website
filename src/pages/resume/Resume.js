@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import ResumePdf from "../../Assets/Resume.png";
-import Navbar from "../navbar/Navbar";
 import "./resume.css";
 import ResumePDF from "../../Assets/Adarsh_Singh_Resume.pdf";
 import { Fade } from "react-awesome-reveal";
@@ -12,7 +11,6 @@ function Resume() {
   })
   return (
     <>
-      <Navbar />
       <Fade>
         <div className="resume-main-con">
           <img src={ResumePdf} className="resume-img" alt="Adarsh_Singh_Resume - Click below to download" />
