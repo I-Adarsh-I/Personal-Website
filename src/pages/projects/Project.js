@@ -43,6 +43,7 @@ function Project() {
           <Tab label="Design projects" sx={{ textTransform: "unset" }} className="fontFam rounded-full" />
         </Tabs>
       </Box>
+      
       </div>
       <Fade>
         <div className=" project-main-container">

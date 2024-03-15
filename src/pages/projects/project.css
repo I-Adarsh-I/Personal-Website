@@ -21,13 +21,13 @@
   border-radius: 100px;
 }
 .css-gcdjp1-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: unset;
+  color: var(--color-orange) !important;
   border-radius: 100px;
+  z-index: 1;
 }
 .fontFam{
   font-family: var(--font-montserrat) !important;
-  color: var(--color-orange) !important;
-  z-index: 1;
-  border-radius: 100px;
 }
 
 @media screen and (max-width: 480px) {
