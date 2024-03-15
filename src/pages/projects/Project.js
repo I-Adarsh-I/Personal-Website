@@ -30,7 +30,6 @@ function Project() {
         sx={{
           borderRadius: "100px",
           backdropFilter: "blur(20px)",
-          color: 'orange'
         }}
       >
         <Tabs
