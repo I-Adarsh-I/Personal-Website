@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import "./home.css";
 import Navbar from "../navbar/Navbar";
 import ProjectCard, { Approach } from "../cards/Cards";
@@ -18,7 +17,6 @@ export default function Home() {
     document.title = "Home | Adarsh Singh";
   }, []);
 
-  const navigate = useNavigate();
 
   return (
     <>

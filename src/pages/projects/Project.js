@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./project.css";
 import Footer from "../../components/footer/Footer";
-import NavTab from "../../components/navbar/Tab";
 import { DesignProj } from "../../components/cards/Cards";
 import { Fade } from "react-awesome-reveal";
 import Tabs from "@mui/material/Tabs";

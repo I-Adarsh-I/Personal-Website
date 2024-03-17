@@ -1,7 +1,7 @@
 import React from "react";
 import './project.css'
-import { DevProjects } from "../../components/cards/Cards";
-import { Link } from "react-router-dom";
+// import { DevProjects } from "../../components/cards/Cards";
+// import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const DevProj = () => {
