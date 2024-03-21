@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import ProjectDetails from "./components/project details/ProjectDetails";
 import PageNotFound from "./pages/pageNotFound/PageNotFound";
 import MainNavbar from "./components/navbar/Navbar";
+import SignIn from "./pages/auth/SignIn";
 // import Connect from "./pages/Connect";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/projects/:title" element= {<ProjectDetails />} />
         <Route path="/resume" element = {<Resume />} />
         {/* <Route path="/connect" element = {<Connect />} /> */}
+        <Route path="/admin-sign-in" element={<SignIn />} />
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </div>
