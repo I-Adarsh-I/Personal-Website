@@ -9,6 +9,7 @@ import ProjectDetails from "./components/project details/ProjectDetails";
 import PageNotFound from "./pages/pageNotFound/PageNotFound";
 import MainNavbar from "./components/navbar/Navbar";
 import SignIn from "./pages/auth/SignIn";
+import Landing from "./pages/landing/Landing";
 // import Connect from "./pages/Connect";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/resume" element = {<Resume />} />
         {/* <Route path="/connect" element = {<Connect />} /> */}
         <Route path="/admin-sign-in" element={<SignIn />} />
+        <Route path="/landing" element={<Landing />} />
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </div>

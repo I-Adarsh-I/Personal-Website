@@ -74,8 +74,8 @@ export default function MainNavbar() {
                     return (
                       "no-underline " +
                       (isActive
-                        ? "text-orange-500 no-underline"
-                        : "text-gray-700 no-underline")
+                        ? "text-orange no-underline"
+                        : "text-gray no-underline")
                     );
                   }}
                 >
@@ -89,8 +89,8 @@ export default function MainNavbar() {
                     return (
                       "no-underline " +
                       (isActive
-                        ? "text-orange-500 no-underline"
-                        : "text-gray-700 no-underline")
+                        ? "text-orange no-underline"
+                        : "text-gray no-underline")
                     );
                   }}
                 >

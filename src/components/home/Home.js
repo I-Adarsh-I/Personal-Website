@@ -13,16 +13,9 @@ import {
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  // const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // const toggleTheme = () => {
-  //   setIsDarkMode(prevMode => !prevMode);
-  //   document.body.classList.toggle('dark-theme');
-  // };
   useEffect(() => {
     document.title = "Home | Adarsh Singh";
   }, []);
-
 
   return (
     <>
@@ -60,7 +53,6 @@ export default function Home() {
                       <span
                         className="lets-connect"
                         // style={{ cursor: "pointer" }}
-                        
                       >{`Let’s connect  `}</span>
                     </span>
                     <span className="lets-connect">
@@ -86,10 +78,8 @@ export default function Home() {
               <a href="mailto:adarshsi.info@gmail.com" target="_target">
                 <AiFillMail className="icon mail-icon" />
               </a>
-              
             </div>
           </div>
-          {/* <button className="fixed h-12 w-12 bottom-6 right-6 sm:right-20 rounded-full bg-neutral-900 text-white">DRK</button> */}
         </div>
       </Fade>
       <Fade>
