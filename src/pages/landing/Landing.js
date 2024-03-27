@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className="h-screen w-full flex justify-center items-center">
       <div className="container h-5/6 lg:h-3/6 flex flex-column lg:items-center flex-lg-row justify-center gap-3 lg: gap-0 lg:justify-between">
-        <div className="l-sec flex flex-column lg:justify-center">
+        <div className="l-sec flex flex-column lg:justify-center w-1/2">
           <div className="mb-3">
             <Avatar
               alt="Remy Sharp"
@@ -29,26 +29,24 @@ const Landing = () => {
             </a>
           </div>
         </div>
-        <div className="r-sec flex">
-          <div className="flex flex-column">
-            <h3 className="font-montserrat">
-              A MERN Stack developer and <br /> UI Designer based in India{" "}
+        <div className="r-sec flex flex-column items-start w-1/2 lg:items-end">
+            <h3 className="font-montserrat break-words">
+              A MERN Stack developer and UI Designer based in India{" "}
             </h3>
-            <p className="font-source-serif-4 w-11/12 mt-2 text-mob-small lg:text-base lg:mt-0 lg:w-9/12 md:w-10/12 break-words">
+            <p className="font-source-serif-4 mt-2 text-mob-small lg:text-base break-words">
               Passionate about designing and developing websites for enhanced
               user experiences
             </p>
-          <div className="flex lg:hidden md:hidden sm:hidden items-center gap-2">
-            <button className="border border-sub-gray px-4 py-2 font-montserrat text-mob-small rounded flex gap-2 items-center mr-0 lg:mr-4">
-              GitHub
-              <GitHubIcon />
-            </button>
-            <a className="no-underline text-orange" href="">
-              View all projects
-            </a>
-          </div>
-          </div>
         </div>
+        {/* <div className="flex lg:hidden md:hidden sm:hidden items-center gap-2">
+              <button className="border border-sub-gray px-4 py-2 font-montserrat text-mob-small rounded flex gap-2 items-center mr-0 lg:mr-4">
+                GitHub
+                <GitHubIcon />
+              </button>
+              <a className="no-underline text-orange" href="">
+                View all projects
+              </a>
+            </div> */}
       </div>
     </div>
   );
