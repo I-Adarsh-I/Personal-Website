@@ -17,6 +17,7 @@ module.exports = {
         'mob-small': 'var(--font-size-mob-small)',
         'main-head-mob': 'var(--font-main-head-mob)',
         'sub-size-mob': 'var(--font-sub-size-mob)',
+        'mob-btn-sm': 'var(--font-mob-button)',
       },
       colors: {
         'gray': 'var(--color-gray)',
